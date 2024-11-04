@@ -1,5 +1,9 @@
 ![Marlin Oyster Logo](./logo.svg)
 
+# Archival
+
+Archived in favour of https://github.com/marlinprotocol/oyster-monorepo
+
 # Init server
 
 Initialization server that is used to feed in initialization parameters to the enclave, primarily the job id and the IP of the instance. Note that the init server is fully controlled by the operator and is not guaranteed to provide accurate data, the enclave needs to be designed accordingly. Meant to be used with [vet](https://github.com/marlinprotocol/vet), a curl-like utility that works over vsocks.
